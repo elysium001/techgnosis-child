@@ -1,0 +1,126 @@
+/*
+Theme Name: Techgnosis Child
+Theme URI: https://webtechgnosis.com
+Author: WebTechgnosis
+Template: techgnosis-theme
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: techgnosis
+*/
+
+/* color for theme */
+/* accent: #b89058 */
+
+.site-footer {
+    background-color: #383838;
+    color: #ffffff;
+    padding: 54px 0;
+}
+
+.site-footer .columns {
+    display: flex;
+    flex-flow: column;
+}
+
+.site-footer .columns *{
+    margin-bottom: 16px;
+}
+
+.site-footer .columns a,
+.site-footer .columns img{
+    align-self: center;
+}
+
+.main-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.main-navigation a.custom-logo-link {
+    max-width: 100px;
+}
+
+.site-header {
+    padding-top: 1em;
+    margin-bottom: -.5em;
+}
+
+.bondlaw-nav {
+    margin-left: auto;
+}
+
+li.menu-item {
+	margin-bottom: 0;
+}
+
+.heading-divider:after {
+    border-color: #b89058;
+}
+
+form button[type="submit"] {
+    background-color: #b89058 !important;
+    color: #ffffff !important;
+    border-radius: 3px !important;
+}
+
+.widget form {
+    background-color: #b89058;
+    border-radius: 3px;
+    padding: 16px;
+}
+
+.widget form input {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+.site-footer .columns.contact a {
+    text-decoration: none !important;
+    color: #ffffff !important;
+}
+
+.blog .site-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blog .site-main header {
+    display: none;
+}
+
+article.card-post {
+    width: 47%;
+    border: 1px solid #b890583b;
+    border-radius: 3px;
+    margin-bottom: 24px;
+}
+
+.single article.card-post {
+    width: 100%;
+}
+
+article.card-post a {
+    text-decoration: none;
+}
+
+article.card-post .entry-title,
+article.card-post .entry-title + p,
+article.card-post .entry-footer {
+    margin-top: 0;
+    padding: 0 16px 16px 16px;
+    color: #000000;
+}
+
+article.card-post .entry-content {
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    article.card-post {
+        width: 100%;
+    }
+}

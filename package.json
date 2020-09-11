@@ -1,0 +1,23 @@
+{
+  "name": "techgnosis-child-theme",
+  "version": "1.0.0",
+  "description": "WebTechgnosis Child theme for customizing and editing!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elysium001/techgnosis-child.git"
+  },
+  "keywords": [
+    "webtechgnosis",
+    "child-theme"
+  ],
+  "author": "@i_am_techgnosis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elysium001/techgnosis-child/issues"
+  },
+  "homepage": "https://github.com/elysium001/techgnosis-child#readme"
+}
